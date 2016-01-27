@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\usuario\\AndroidStudioProjects\\Labo42\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\usuario\\AndroidStudioProjects\\Labo42\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Proyectos\\androidProjects\\Labo42\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Proyectos\\androidProjects\\Labo42\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

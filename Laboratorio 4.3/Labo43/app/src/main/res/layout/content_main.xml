@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carlos.labo43.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progreso Tarea"
+        android:id="@+id/textView" />
+
+    <ProgressBar
+        android:id="@+id/pbarProgreso"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:max="100" />
+
+    <Button
+        android:id="@+id/btnsinHilos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnsinHilos"
+        android:text="Ejecucion sin Hilos"/>
+
+    <Button
+        android:id="@+id/btnHilos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnHilos"
+        android:text="Ejecutar Hilo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAsyncTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejecutar AsyncTask" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAsyncDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnAsyncDialog"
+        android:text="AsyncTask + ProgressDialog" />
+
+</LinearLayout>
