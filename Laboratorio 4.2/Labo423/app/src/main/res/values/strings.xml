@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Labo423</string>
+    <string name="action_settings">Settings</string>
+    <string name="paginaweb">Pagina Web</string>
+    <string name="telefono">Marca Telefono</string>
+    <string name="llamada">Llamada</string>
+    <string name="contactos">Añadir</string>
+    <string name="alarma">Alarma</string>
+    <string name="correo">Email</string>
+    <string name="camara">Camara</string>
+    <string name="video">Video</string>
+    <string name="gps">GPS</string>
+    <string name="texto">Texto</string>
+</resources>
