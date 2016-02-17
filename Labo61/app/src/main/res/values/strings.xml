@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Labo61</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_nuevo">Nuevo</string>
+    <string name="fragmento1">Este es el fragment 1</string>
+</resources>
