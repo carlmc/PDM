@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carlosmc.labo73.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dni"
+        android:textSize="20dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_dni"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre y apellido"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/et_dni"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_datos"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/et_dni" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre del colegio"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/et_datos"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_colegio"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/et_datos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numero de mesa"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/et_colegio"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_mesa"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/et_colegio" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alta"
+        android:id="@+id/button"
+        android:layout_below="@+id/et_mesa"
+        android:layout_alignParentStart="true"
+        android:onClick="alta"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="baja"
+        android:id="@+id/button2"
+        android:layout_below="@+id/et_mesa"
+        android:layout_toEndOf="@+id/button"
+        android:onClick="baja"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="consulta"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:onClick="consulta"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="modific"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:onClick="modificacion"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inicio"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button2"
+        android:onClick="inicio"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="anterior"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:onClick="anterior"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="siguiente"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button3"
+        android:layout_toEndOf="@+id/button6"
+        android:onClick="siguiente"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fin"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button3"
+        android:layout_toEndOf="@+id/button7"
+        android:onClick="fin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset info"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button8"
+        android:onClick="onReset"/>
+
+
+</RelativeLayout>

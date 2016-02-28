@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Labo71</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mis_preferencias">MisPreferencias</string>
+</resources>
