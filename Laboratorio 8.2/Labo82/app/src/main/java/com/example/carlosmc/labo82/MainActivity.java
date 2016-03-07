@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         new LoadAllProducts().execute();
         lista = (ListView) findViewById(R.id.listAllProducts);
         ActionBar actionBar = getSupportActionBar();
-//        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
     }
 
